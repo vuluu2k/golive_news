@@ -1,0 +1,87 @@
+#popup_mobile_content{
+  width: calc(100vw - 20px);
+  height: fit-content;
+  z-index: 13;
+  border-radius: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 40px;
+  position: fixed;
+  padding-bottom: 25px;
+}
+
+.popup_header{
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.popup_title_bold{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.popup_title{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.popup_txt{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.popup_item_outline{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.popup_item_outline{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.popup_form_input{
+  border: 1px solid #848E9C;
+  padding: 0 15px;
+}
+
+.login_pass_wrapper{
+  position: relative;
+}
+
+.login_pass_eye_icon{
+  position: absolute;
+  right: 12px;
+  top: 50%;
+}
+
+.divider_line{
+  height: 1px;
+  flex: 1;
+  width: 90%;
+}
+
+.popup_item_outline_red{
+  border: 1px solid #D7111B;
+  cursor: pointer;
+}
+
+.popup_item_outline_login_other_btn{
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 0 25px;
+}
+
+.popup_tab{
+  border-bottom: 2px solid #E5E5E5;
+}
+
+.popup_tab_active{
+  border-bottom: 2px solid #D7111B !important;
+}

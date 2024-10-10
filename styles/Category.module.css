@@ -1,0 +1,30 @@
+.title {
+  border-bottom: 3px solid var(--red);
+  padding-bottom: 20px;
+}
+
+.title li {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.title li::marker {
+  color: red;
+}
+
+.title_new::before {
+  content: "";
+  background-image: url("../public/images/Sao.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.title_new {
+  border: 1px solid var(--light-gray);
+  padding: 3px 35px 3px 3px;
+  width: fit-content;
+}

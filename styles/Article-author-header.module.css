@@ -1,0 +1,26 @@
+#author_ava{
+  border-radius: 50%;
+}
+
+#author_name{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.txt_10_400{
+  font-size: 10px;
+  font-weight: 400;
+}
+
+#share_count_btn{
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+#get_link_btn , #share_btn{
+  border-radius: 3px;
+  width: 100px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 400;
+}

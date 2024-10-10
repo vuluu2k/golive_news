@@ -1,0 +1,206 @@
+/*Style for section điện ảnh và giải trí */
+
+.tab_homepage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tab_homepage ul li {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.tab_homepage ul li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+
+.tab_homepage h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: justify;
+  color: #000000;
+}
+
+.miss .not-miss-content .card {
+  border: 1px solid #e5e5e5;
+}
+
+.miss .not-miss-content .col-sm-6 .card .card-body .text-red {
+  font-size: 8px;
+}
+
+.image_round {
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 17vh;
+}
+
+.card_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.7rem;
+}
+
+.card_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style for youtube video section */
+#youtube_section {
+  border-radius: 10px;
+}
+
+.image_play {
+  position: relative;
+}
+
+.title_icon{
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  position: absolute;
+  opacity: 0.6;
+}
+
+.title_icon:hover{
+  opacity: 0.9;
+}
+
+.title_icon .icon_play {
+  color: white;
+  position: absolute;
+  z-index: 9999;
+  opacity: 1;
+}
+
+.text_play {
+  font-weight: 600;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  top: 50%;
+  transform: translateY(-100%);
+  -ms-transform: translate(-100%);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.youtube_title {
+  font-weight: 600;
+  font-size: 18px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon_youtube {
+  font-size: 25px;
+  color: red;
+}
+
+/* Style for scroll bar in section not miss */
+.scroll {
+  overflow-y: scroll;
+  max-height: 370px;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+#style_scrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #262436;
+}
+
+#style_scrollbar::-webkit-scrollbar {
+  width: 12px;
+  background-color: #262436;
+}
+
+#style_scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #848e9c;
+}
+
+/* Style for icon not miss */
+
+.most_int_header {
+  border-bottom: 2px solid var(--red);
+  color: var(--white);
+}
+
+@media only screen and (max-width: 576px) {
+  .most_int_header {
+    text-align: center!important;
+    background-color: var(--red);
+  }
+}
+
+.most_int_header_title {
+  background-color: var(--red);
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding: 0.3rem 1.5rem 0.3rem 0.3rem;
+  font-size: 1.6rem;
+}
+
+.most_int_header_title::before {
+  content: "";
+  background-image: url("../public/images/not-miss-icon.svg");
+  background-size: 36px 36px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.category_title {
+  margin-top: .5rem;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.datetime {
+  margin-top: .5rem;
+  margin-left: .5rem;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}

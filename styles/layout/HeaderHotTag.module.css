@@ -1,0 +1,35 @@
+#header_hot_tag{
+  height: 50px;
+  width: 100%;
+}
+
+.hot_tag_item{
+  border: 1px solid #D7111B;
+  border-radius: 20px;
+  height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1px 5px;
+  margin-left: 10px;
+  width: fit-content !important;
+}
+
+#header_hot_tag_wrapper{
+  max-width: 100%;
+  width: 100%;
+}
+
+.hot_tag_item:hover{
+  cursor: pointer;
+}
+
+.hottag_item_pc{
+  min-width: fit-content;
+  font-weight: 400;
+  font-size: 12px;
+  border: 1px solid #D7111B;
+  border-radius: 20px;
+  padding: 0 5px;
+  cursor: pointer;
+  height: 20px;
+}

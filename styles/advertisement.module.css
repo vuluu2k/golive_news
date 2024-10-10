@@ -1,0 +1,19 @@
+#firstad{
+  background: url('../public/images//advertisement1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+#secondad{
+  background: url('../public/images//advertisement2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sticky {
+  position: sticky;
+  top: 1rem;
+}

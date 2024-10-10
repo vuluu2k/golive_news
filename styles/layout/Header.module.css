@@ -1,0 +1,99 @@
+.golive_header_content{
+  height: 60px;
+  width: 100%;
+}
+
+/* responsive for header logo */
+#golive_header_logo{
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto 0;
+  cursor: pointer;
+}
+/* mobile */
+@media only screen and (max-width: 576px) {
+  #golive_header_logo{
+    height: 15px;
+    width: 60px;
+    background: url('../../public/golive_logo_60_15.png');
+    background-size: 60px 15px;
+  }
+}
+
+/* tablet and up */
+@media only screen and (min-width: 576px) {
+  #golive_header_logo{
+    height: 20px;
+    width: 80px;
+    background: url('../../public/golive_logo_80_20.png');
+    background-size: 80px 20px;
+  }
+}
+
+#login_btn{
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+/* responsive for header search input */
+#golive_header_search_input{
+  outline: none;
+  border-radius: 15px;
+  padding: 0 35px 0 10px;
+  border: 1px solid #D7111B;
+}
+
+#search_icon{
+  height: 24px;
+  width: 24px;
+  background-image: url('../../public/search_icon.png');
+  background-repeat: no-repeat;
+  right: 5px;
+  top: 2px;
+}
+
+/* mobile */
+@media only screen and (max-width: 576px) {
+  #golive_header_search_input{
+    height: 20px;
+    width: 85px;
+    padding: 0 20px 0 10px;
+    font-size: 12px;
+  }
+
+  #search_icon{
+    height: 17px;
+    width: 17px;
+    background-image: url('../../public/search_icon_small.png');
+    right: 5px !important;
+    top: 5px !important;
+  }
+
+  #golive_header_search_input::placeholder {
+    text-align: left; 
+  }
+}
+
+/* tablet and up */
+@media only screen and (min-width: 576px) {
+  #golive_header_search_input{
+    height: 30px;
+    width: 215px;
+    font-size: 16px;
+  }
+
+  #golive_header_search_input::placeholder {
+    text-align: center; 
+  }
+}
+
+.txt_14_600{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#search_icon{
+  right: 5px;
+  top: 2px;
+  cursor: pointer;
+}

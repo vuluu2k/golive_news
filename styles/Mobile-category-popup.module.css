@@ -1,0 +1,25 @@
+#mobile_category_popup{
+  min-height: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: calc(100% - 20px);
+}
+
+#header_title_border{
+  height: 0.5px;
+}
+
+#title{
+  font-size: 11px;
+  font-weight: 600;
+  margin: auto 0;
+}
+
+.category_item{
+  border: 0.3px solid #E5E5E5;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 10px;
+  min-height: 20px;
+  height: 100% !important;
+}

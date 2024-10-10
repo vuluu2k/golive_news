@@ -1,0 +1,45 @@
+.header {
+    background: linear-gradient(0deg, #edf6fd, #f6fafe);
+    color: #2577b1;
+}
+
+.description {
+    font-size: .7rem;
+}
+
+.child_area {
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #d5eaf9;
+    margin-right: .5rem;
+}
+
+.icon_active {
+    font-size: 1.5rem;
+    color: #f9c479;
+    margin-right: .5rem;
+}
+
+.text_no_wrap {
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.p_no_margin {
+    margin: 0;
+    font-size: 80%;
+}
+
+.text_wrap {
+    margin-left: .5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    color: #8c8c8c;
+}

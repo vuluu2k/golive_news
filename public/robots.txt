@@ -1,0 +1,24 @@
+User-agent: PetalBot
+User-agent: AspiegelBot
+User-agent: AhrefsBot
+User-agent: SemrushBot 
+User-agent: DotBot
+User-agent: MauiBot
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /threads/*/reply
+
+User-agent: *
+Disallow: /whats-new/
+Disallow: /account/
+Disallow: /attachments/
+Disallow: /goto/
+Disallow: /posts/
+Disallow: /login/
+Disallow: /search/
+Disallow: /admin.php
+Allow: /
+
+Sitemap: https://golive.vn/sitemap.xml

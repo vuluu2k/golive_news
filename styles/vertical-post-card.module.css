@@ -1,0 +1,25 @@
+.title{
+  font-style: normal;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 8px;
+}
+
+.category{
+  font-size: 12px;
+}
+
+.timeagos{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card_thumbnail{
+  border-radius: 10px;
+}

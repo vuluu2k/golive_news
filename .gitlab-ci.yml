@@ -1,0 +1,26 @@
+variables:
+  GIT_STRATEGY: clone
+before_script:
+  - docker version
+  - docker-compose version
+stages:
+  - build
+  - deploy
+build-golive:
+  stage: build
+  tags:
+    - golive
+  script:
+    - docker-compose down --remove-orphans
+    - docker system prune -f
+    - docker image prune --force
+  only:
+    - develop
+deploy-golive:
+  stage: deploy
+  tags:
+    - golive
+  script:
+    - docker-compose up -d --build
+  only:
+    - develop

@@ -1,0 +1,89 @@
+#popup_content{
+  width: 770px;
+  height: fit-content;
+  z-index: 13;
+  border-radius: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 140px;
+  position: fixed;
+  padding-bottom: 45px;
+}
+
+.popup_header{
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.popup_title{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.popup_txt{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.popup_item_outline{
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.popup_form_input{
+  border: 1px solid #848E9C;
+  padding: 0 15px;
+}
+
+.login_pass_wrapper{
+  position: relative;
+}
+
+.login_pass_eye_icon{
+  position: absolute;
+  right: 12px;
+  top: 50%;
+}
+
+.popup_item_outline_red{
+  border: 1px solid #D7111B;
+  cursor: pointer;
+}
+
+#login_fb_btn{
+  background-image: url('../public/fb_icon_color.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 36px calc(100% - 10px);
+}
+
+#login_gg_btn{
+  background-image: url('../public/gg_icon.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 36px calc(100% - 10px);
+}
+
+#login_apple_btn{
+  background-image: url('../public/apple_icon.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: 36px calc(100% - 10px);
+}
+
+#popup_devider{
+  width: 1px;
+  height: calc(100% - 25px);
+  margin-top: 25px;
+}
+
+.popup_tab{
+  border-bottom: 2px solid #E5E5E5;
+}
+
+.popup_tab_active{
+  border-bottom: 2px solid #D7111B !important;
+}
